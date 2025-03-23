@@ -5,4 +5,6 @@ module com.iub.cse.oop.spring25groupprojectdemo1 {
 
     opens com.iub.cse.oop.spring25groupprojectdemo1 to javafx.fxml;
     exports com.iub.cse.oop.spring25groupprojectdemo1;
+    exports com.iub.cse.oop.spring25groupprojectdemo1.mahmood;
+    opens com.iub.cse.oop.spring25groupprojectdemo1.mahmood to javafx.fxml;
 }
